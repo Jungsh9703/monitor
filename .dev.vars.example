@@ -1,0 +1,6 @@
+# Copy to .dev.vars for local `wrangler dev`.
+
+# Bearer token for GET /forensic/lookup and /forensic/file (src/lookup.ts).
+# Those endpoints return real uploaded file contents, so they answer 503
+# until this is set -- use any long random string.
+LOOKUP_TOKEN=
